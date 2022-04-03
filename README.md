@@ -8,6 +8,7 @@
 - Add -> Class -> Models -> Category.cs -> // 000 - Create Project
 - Edit -> appsettings.json -> // 000 - Create Project
 - Add -> New Folder -> Data
-- Add -> Class -> Data -> ApplicationDbContext.cs -> // 000 - Create Project
 - Nuget -> Microsoft.EntityFrameworkCore -> Install
-- 
+- Add -> Class -> Data -> ApplicationDbContext.cs -> // 000 - Create Project
+- Nuget -> Microsoft.EntityFrameworkCore.SqlServer -> Install
+- Edit -> Program.cs -> // 000 - Create Project
