@@ -12,3 +12,6 @@
 - Add -> Class -> Data -> ApplicationDbContext.cs -> // 000 - Create Project
 - Nuget -> Microsoft.EntityFrameworkCore.SqlServer -> Install
 - Edit -> Program.cs -> // 000 - Create Project
+- Nuget -> Microsoft.EntityFrameworkCore.Tools -> Install
+- Console -> Add-Migration AddCategoryToDatabase -> Update-Database
+- 
