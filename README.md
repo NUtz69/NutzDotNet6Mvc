@@ -14,4 +14,11 @@
 - Edit -> Program.cs -> // 000 - Create Project
 - Nuget -> Microsoft.EntityFrameworkCore.Tools -> Install
 - Console -> Add-Migration AddCategoryToDatabase -> Update-Database
+
+> 001 - Category
+
+- Add -> Controllers -> CategoryController.cs -> // 001 - Category
+- Add View -> Index -> Razor View -> @*001 - Category*@
+- Edit -> Views -> Shared -> Layout.cshtml -> @*001 - Category*@
+- Edit -> Controllers -> CategoryController.cs
 - 
