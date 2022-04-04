@@ -17,8 +17,8 @@
 
 > 001 - Category
 
-- Add -> Controllers -> CategoryController.cs -> // 001 - Category
-- Add View -> Index -> Razor View -> @*001 - Category*@
+- Add -> Controllers -> CategoryController.cs
+- Add View -> Index -> Razor View
 - Edit -> Views -> Shared -> Layout.cshtml -> @*001 - Category*@
-- Edit -> Controllers -> CategoryController.cs
-- 
+- Edit -> Controllers -> CategoryController.cs -> // 001 - Category
+- Edit -> Views -> Category -> Index.cshtml -> @*001 - Category*@
