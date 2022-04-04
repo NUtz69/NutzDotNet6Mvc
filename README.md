@@ -22,3 +22,4 @@
 - Edit -> Views -> Shared -> Layout.cshtml -> @*001 - Category*@
 - Edit -> Controllers -> CategoryController.cs -> // 001 - Category
 - Edit -> Views -> Category -> Index.cshtml -> @*001 - Category*@
+- Edit -> wwwroot -> css -> site.css -> /*001 - Category*/
