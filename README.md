@@ -25,3 +25,6 @@
 - Edit -> wwwroot -> css -> site.css -> /*001 - Category*/
 - Add View -> Create -> Razor View
 - Edit -> Views -> Category -> Create.cshtml -> @*001 - Category*@
+- Edit -> Models -> Category.cs -> // 001 - Category
+- Add View -> Edit -> Razor View
+- Edit -> Views -> Category -> Edit.cshtml -> @*001 - Category*@
