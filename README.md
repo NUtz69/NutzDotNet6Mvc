@@ -28,3 +28,7 @@
 - Edit -> Models -> Category.cs -> // 001 - Category
 - Add View -> Edit -> Razor View
 - Edit -> Views -> Category -> Edit.cshtml -> @*001 - Category*@
+- Add View -> Delete -> Razor View
+- Edit -> Views -> Category -> Delete.cshtml -> @*001 - Category*@
+- Add View -> Shared -> Razor View -> partial view
+- Edit -> Views -> Shared -> Notification.cshtml -> @*001 - Category*@
