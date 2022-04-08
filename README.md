@@ -37,4 +37,4 @@
 
 > 002 - Create Project
 
-
+- Add -> Project -> ASP.Net Core Web App
