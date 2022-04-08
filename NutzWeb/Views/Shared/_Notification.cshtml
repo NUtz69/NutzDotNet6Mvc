@@ -1,0 +1,29 @@
+﻿@*001 - Category*@
+
+@*TempData*@
+
+@*success*@
+@if (TempData["success"] != null)
+{
+    @*jquery*@
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    @*toastr*@
+    <script src="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+
+    <script type="text/javascript">
+        toastr.success('@TempData["success"]');
+    </script>
+}
+
+@*error*@
+@if (TempData["error"] != null)
+{
+    @*jquery*@
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    @*toastr*@
+    <script src="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+
+    <script type="text/javascript">
+        toastr.error('@TempData["error"]');
+    </script>
+}
