@@ -2,7 +2,7 @@
 
 @ NutzWeb
 
-> 000 - Create Project
+> 000 - Create Project MVC
 
 - Nuget -> Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation -> Install
 - Add -> Class -> Models -> Category.cs -> // 000 - Create Project
@@ -35,6 +35,24 @@
 
 @ DCWeb
 
-> 002 - Create Project
+> 002 - Create Project Razor
 
 - Add -> Project -> ASP.Net Core Web App
+- Add -> Class -> Models -> Category.cs
+- Edit -> Models -> Category.cs -> // 002 - Create Project DCWeb
+- Edit -> appsettings.json -> // 002 - Create Project DCWeb
+- Nuget -> Microsoft.EntityFrameworkCore -> Install
+- Nuget -> Microsoft.EntityFrameworkCore.SqlServer -> Install
+- Add -> New Folder -> Data
+- Add -> Class -> Data -> ApplicationDbContext.cs -> // 002 - Create Project DCWeb
+- Edit -> Program.cs -> // 002 - Create Project DCWeb
+- Nuget -> Microsoft.EntityFrameworkCore.Tools -> Install
+- Console -> Add-Migration AddCategoryToDb -> Update-Database
+
+> 003 - Category
+
+- Add -> New Folder -> Pages -> Categories
+- Add -> Categories -> Razor Page - Empty -> Index.cshtml
+- Edit -> Index.cshtml.cs -> // 003 - Category
+- Edit -> Index.cshtml -> @*003 - Category*@
+
