@@ -57,3 +57,4 @@
 - Edit -> Index.cshtml -> @*003 - Category*@
 - Add -> Categories -> Razor Page - Empty -> Create.cshtml
 - Edit -> Create.cshtml -> @*003 - Category*@
+- Edit -> Create.cshtml.cs -> // 003 - Category
