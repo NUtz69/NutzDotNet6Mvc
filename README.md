@@ -58,3 +58,5 @@
 - Add -> Categories -> Razor Page - Empty -> Create.cshtml
 - Edit -> Create.cshtml -> @*003 - Category*@
 - Edit -> Create.cshtml.cs -> // 003 - Category
+- Edit -> Views -> Shared -> Layout.cshtml -> @*003 - Category*@
+
