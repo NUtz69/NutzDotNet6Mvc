@@ -59,4 +59,7 @@
 - Edit -> Create.cshtml -> @*003 - Category*@
 - Edit -> Create.cshtml.cs -> // 003 - Category
 - Edit -> Views -> Shared -> Layout.cshtml -> @*003 - Category*@
-
+- Edit -> Models -> Category.cs -> // 003 - Category
+- Add -> Categories -> Razor Page - Empty -> Edit.cshtml
+- Edit -> Edit.cshtml -> @*003 - Category*@
+- Edit -> Edit.cshtml.cs -> // 003 - Category
