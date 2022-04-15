@@ -63,3 +63,6 @@
 - Add -> Categories -> Razor Page - Empty -> Edit.cshtml
 - Edit -> Edit.cshtml -> @*003 - Category*@
 - Edit -> Edit.cshtml.cs -> // 003 - Category
+- Add -> Categories -> Razor Page - Empty -> Delete.cshtml
+- Edit -> Delete.cshtml -> @*003 - Category*@
+- Edit -> Delete.cshtml.cs -> // 003 - Category
