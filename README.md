@@ -66,3 +66,4 @@
 - Add -> Categories -> Razor Page - Empty -> Delete.cshtml
 - Edit -> Delete.cshtml -> @*003 - Category*@
 - Edit -> Delete.cshtml.cs -> // 003 - Category
+- Add -> Pages -> Shared -> Razor View - Empty -> Notification.cshtml
