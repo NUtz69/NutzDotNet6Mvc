@@ -1,0 +1,41 @@
+﻿@page
+@model DCWeb.Pages.Categories.CreateModel
+
+@*003 - Category*@
+
+<form method="post">
+    <div class="border p-3 mt-4">
+        <div class="row pb-2">
+            @*Create Category*@
+            <h2 class="text-primary pl-3">Create Category</h2>
+            <br />
+        </div>
+
+        @*Summary Error*@
+        <div asp-validation-summary="All"></div>
+
+        @*Name*@
+        <div class="mb-3">
+            <label asp-for="Category.Name"></label> 
+            <input asp-for="Category.Name" class="form-control" />
+            <span asp-validation-for="Category.Name" class="text-danger"></span>
+        </div>
+        @*Display Order*@
+        <div class="mb-3">
+            <label asp-for="Category.DisplayOrder"></label> 
+            <input asp-for="Category.DisplayOrder" class="form-control" />
+            <span asp-validation-for="Category.DisplayOrder" class="text-danger"></span>
+        </div>
+
+        @*Button - Create*@
+        <button type="submit" class="btn btn-primary" style="width:150px;">Create</button>
+        @*Button - Delete*@
+        <a asp-page="Index" class="btn btn-secondary style="width:150px;"> Back to list</a>
+    </div>
+</form>
+
+@section Scripts{
+    @{
+        <partial name="_ValidationScriptsPartial" />
+    }
+}

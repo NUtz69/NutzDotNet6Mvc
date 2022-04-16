@@ -1,0 +1,39 @@
+﻿@page
+@model DCWeb.Pages.Categories.DeleteModel
+
+@*003 - Category*@
+
+<form method="post">
+    @*Hidden Id*@
+    <input hidden asp-for="Category.Id" />
+
+    <div class="border p-3 mt-4">
+        <div class="row pb-2">
+            @*Delete Category*@
+            <h2 class="text-primary pl-3">Delete Category</h2>
+            <br />
+        </div>
+
+        @*Name*@
+        <div class="mb-3">
+            <label asp-for="Category.Name"></label> 
+            <input asp-for="Category.Name" disabled class="form-control" />
+        </div>
+        @*Display Order*@
+        <div class="mb-3">
+            <label asp-for="Category.DisplayOrder"></label> 
+            <input asp-for="Category.DisplayOrder" disabled class="form-control" />
+        </div>
+
+        @*Button - Update*@
+        <button type="submit" class="btn btn-danger" style="width:150px;">Delete</button>
+        @*Button - Delete*@
+        <a asp-page="Index" class="btn btn-secondary style="width:150px;"> Back to list</a>
+    </div>
+</form>
+
+@section Scripts{
+    @{
+        <partial name="_ValidationScriptsPartial" />
+    }
+}
